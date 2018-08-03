@@ -9,6 +9,8 @@ This package utilizes Docker to contain everything together, to bundle up all in
 
 ## Launching the Service
 
+If you wish to change the default public web ports from 5000 & 5001, edit the .env file before building.
+
 Please note that after launching the first time, the DB data will seed before proceeding.
 
 ```
