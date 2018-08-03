@@ -59,3 +59,21 @@ JSON BODY: { “name”: “Bob Barker”, “number”: “+15556789090”, “
 ```
 {"error": "Could not locate record."}
 ```
+
+## A note about the seeded data
+
+I seeded about 300,000 records into the DB, and then stopped the process.  The numbers are have been normalized in the E.164 format.
+
+Here's a sample set:
+
+
+
+| Number               |  Context      |  Name                      |
+|-----------------------|----------------|---------------------------|
+| +13058224036   | zendesk      | Nowlin Saul             |
+| +16094914267   |  home         | Rubino Lennoxlove  |
+| +17157767000   | zendesk     |  Deluna Mcginley      |
+| +15203611642   |  blah           |  Spearman Mccreary|
+| +16575044762   |  desk.com  |  Briley Hunterstone  |
+|   +12164337234  |  facebook  | Luffness Mattison     |
+	
